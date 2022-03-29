@@ -1,0 +1,1 @@
+spark-submit --class testlog4j.log4jworking --master local --deploy-mode=client --num-executors 1 --driver-memory 512m --executor-memory 512m --executor-cores 1 --conf spark.app.name=NEWSPARKNAME /root/datas/spark/testlog4j-0.0.1-SNAPSHOT.jar /root/datas/spark/log4j.properties
