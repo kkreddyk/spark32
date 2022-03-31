@@ -16,7 +16,7 @@ object stream1 {
   
   def main(args: Array[String]){
     
-    println("Starting Streaming:::::":)
+    println("Starting Streaming::::::")
     
     val logger: Logger = LogManager.getLogger(this.getClass.getName)
     
