@@ -18,11 +18,10 @@
     <HTTP_URL_GIT_REPOSITORY>https://github.com/kkreddyk/spark32.git</HTTP_URL_GIT_REPOSITORY>
   </properties>
 
-   <scm>
-        <url>{HTTP_URL_GIT_REPOSITORY}</url> <!-- URL HTTP de clone do projeto -->
-        <connection>scm:git:{HTTP_URL_GIT_REPOSITORY}</connection> <!-- URL HTTP de clone do projeto -->
-        <developerConnection>scm:git:{HTTP_URL_GIT_REPOSITORY}</developerConnection> <!-- URL HTTP de clone do projeto -->
-        <tag>@{project.version}</tag>
+  <scm>
+        
+        <connection>scm:git:https://github.com/kkreddyk/spark32.git</connection> <!-- URL HTTP de clone do projeto -->
+        
     </scm>
   <dependencies>
 <!-- https://mvnrepository.com/artifact/org.apache.spark/spark-sql -->
