@@ -23,6 +23,14 @@
         
       <tag>HEAD</tag>
   </scm>
+  
+  <distributionManagement>
+       <repository>
+         <id>internal.repo</id>
+         <name>Internal repo</name>
+         <url>file:///home/thara/testesb/in</url>
+       </repository>
+   </distributionManagement>
   <dependencies>
 <!-- https://mvnrepository.com/artifact/org.apache.spark/spark-sql -->
 <dependency>
