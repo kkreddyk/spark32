@@ -28,7 +28,7 @@
        <repository>
          <id>internal.repo</id>
          <name>Internal repo</name>
-         <url>file:///home/thara/testesb/in</url>
+         <url>file:///Datas/bigdata/workspaces/eclipsejars/spark32</url>
        </repository>
    </distributionManagement>
   <dependencies>
