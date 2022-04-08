@@ -68,7 +68,7 @@ object log4jworking {
 		logger.error("This is error message");
 
 
-		println("log level:::::"+ logger.getEffectiveLevel)
+		println("log level:::::"+ logger.getEffectiveLevel) //To get the Log Level
 
 
 		Logger.getLogger("org").setLevel(Level.OFF)

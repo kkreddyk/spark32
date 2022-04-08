@@ -6,7 +6,7 @@ object testingResource {
 	def main(args: Array[String])
 	{
 
-		println("Starting "+this.getClass.getName)
+		println("Starting "+this.getClass.getName) //To get the current class name
 
 		val fs=this.getClass().getClassLoader().getResourceAsStream("log4j.properties") //To read the file from src/main/resources into BufferedInputStream
 		println("Data Type of fs="+fs.getClass.getSimpleName) //To get data type of the variable use var.getClass.getSimpleName
