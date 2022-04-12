@@ -17,7 +17,7 @@ object jdbc {
 
 	def main(args: Array[String]){
 
-		println("JDBC Start::")
+		println("JDBC Start:::")
 
 
 
