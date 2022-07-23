@@ -6,7 +6,7 @@
 
   <groupId>com.projects</groupId>
   <artifactId>spark32</artifactId>
-  <version>0.0.38-SNAPSHOT</version>
+  <version>0.0.39-SNAPSHOT</version>
   <packaging>jar</packaging>
 
   <name>spark32</name>
