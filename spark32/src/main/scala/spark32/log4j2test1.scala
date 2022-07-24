@@ -9,7 +9,7 @@ object log4j2test1 {
   {
   val logger: Logger = LogManager.getLogger(this.getClass.getName)
   
-  logger.debug("Log4j2: Debug........")
+  logger.debug("Log4j2: Debug..........")
   logger.error("Log4j2: error")
   logger.warn("Log4j2: warn")
   logger.fatal("Log4j2: fatal")
