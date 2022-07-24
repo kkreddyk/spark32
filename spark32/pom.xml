@@ -6,7 +6,7 @@
 
   <groupId>com.projects</groupId>
   <artifactId>spark32</artifactId>
-  <version>0.0.50</version>
+  <version>0.0.51-SNAPSHOT</version>
   <packaging>jar</packaging>
 
   <name>spark32</name>
@@ -21,7 +21,7 @@
         
         <connection>scm:git:https://github.com/kkreddyk/spark32.git</connection> <!-- URL HTTP de clone do projeto -->
        
-      <tag>spark32-0.0.50</tag>
+      <tag>HEAD</tag>
   </scm>
   
   <distributionManagement>
