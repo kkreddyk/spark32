@@ -14,7 +14,7 @@ object testingResource {
 		val dataString=scala.io.Source.fromInputStream(fs).mkString //To read from BufferedInputStream
 		println("Data Type of dataString="+dataString.getClass.getSimpleName)
 
-		println("Printing content of the file::"+dataString)
+		println("Printing content of the file:::"+dataString)
 
 
 		println("Ending "+this.getClass.getName)
